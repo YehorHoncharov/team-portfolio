@@ -1,0 +1,46 @@
+
+#main-href {
+    font-size: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(215, 77, 77);
+    height: 65px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header a {
+    color: bisque;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.9);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+/* footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 77, 77);
+    min-width: 100%;
+    min-height: 10%;
+} */
